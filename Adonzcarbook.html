@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      body{
+      margin: 0;
+      font-family:Nunito Sans;
+
+      }
+      h3{
+      text-align: center;
+      font-size: 30px;
+      margin: 0;
+      padding-top: 10px;
+      }
+      a{
+      text-decoration: none;
+      }
+      .gallery{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+      }
+      .content{
+      width: 20%;
+      margin: 10px;
+      box-sizing: border-box;
+      float: left;
+      text-align: center;
+      border-radius:10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-top: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: .4s;
+      }
+      .content:hover{
+      box-shadow: 0 0 11px rgba(33,33,33,.2);
+      transform: translate(0px, -8px);
+      transition: .6s;
+      }
+      img{
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      }
+      p{
+      text-align: center;
+      color: #b2bec3;
+      padding: 0 8px;
+      }
+      h6{
+      font-size: 26px;
+      text-align: center;
+      color: #222f3e;
+      margin: 0;
+      }
+      ul{
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      }
+      li{
+      padding: 5px;
+      }
+      .fa{
+      color: #ff9f43;
+      font-size: 26px;
+      transition: .4s;
+      }
+      .fa:hover{
+      transform: scale(1.3);
+      transition: .6s;
+      }
+      button{
+      text-align: center;
+      font-size: 24px;
+      color: #fff;
+      width: 100%;
+      padding: 15px;
+      border:0px;
+      outline: none;
+      cursor: pointer;
+      margin-top: 5px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      }
+      .buy-1{
+      background-color: #2183a2;
+      }
+      .buy-2{
+      background-color: #3b3e6e;
+      }
+      .buy-3{
+      background-color: #0b0b0b;
+      }
+      @media(max-width: 1000px){
+      .content{
+      width: 46%;
+      }
+      }
+      @media(max-width: 750px){
+      .content{
+      width: 50%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Book Car Now</h1>
+    <h2 style="text-align: center;">Maruthi Suzuki</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="msalto.png">
+        <h3>Alto</h3>
+        <p>HatchBack</p>
+        <h6>₹ 3.15 - 4,82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="msswift.png">
+        <h3>Swift</h3>
+        <p>HatchBack</p>
+        <h6>₹ 5.85 - 8.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="mswaganr.png">
+        <h3>Wagon R</h3>
+        <p>HatchBack</p>
+        <h6> ₹ 4.93 - 6.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="msbrezza.png">
+        <h3>Brezza</h3>
+        <p>MUV</p>
+        <h6> ₹ 7.99 - 10.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      
+    </div>
+
+<h2 style="text-align: center;">VolksWagen</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="vwpolo.png" style="width: 100%; height: 100%;">
+        <h3>POLO</h3>
+        <p>HatchBack</p>
+        <h6>₹ 7.15 - 14,82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="vwgt.png" style="width: 100%; height: 100%;">
+        <h3>GT</h3>
+        <p>HatchBack</p>
+        <h6>₹ 15.85 - 28.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="vwtiguan1.png" style="width: 100%; height: 100%;">
+        <h3>TIGUAN</h3>
+        <p>HatchBack</p>
+        <h6> ₹ 14.93 - 26.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="vwvento.png" style="width: 100%; height: 100%;">
+        <h3>VENTO</h3>
+        <p>HatchBack</p>
+        <h6> ₹ 9.99 - 15.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+
+
+      
+    </div>
+
+
+<h2 style="text-align: center;">Toyota</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="tglanza.png" style="width: 75%; height: 50%;">
+        <h3>Glanza</h3>
+        <p>HatchBack</p>
+        <h6>₹ 7.15 - 10,82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="tcrysta.png" style="width: 100%; height: 100%;">
+        <h3>Crysta</h3>
+        <p>SUV</p>
+        <h6>₹ 16.85 - 30.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="tfortuner.png" style="width: 100%; height: 100%;">
+        <h3>Fortuner</h3>
+        <p>SUV</p>
+        <h6> ₹ 31.93 - 47.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="tcarmy.png" style="width: 78%; height: 100%;">
+        <h3>Carmy</h3>
+        <p>Luxuary</p>
+        <h6> ₹ 45.99 - 70.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+
+
+</div>
+
+      <h2 style="text-align: center;">TATA</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="ttaltroz.png" style="width: 86%; height: 50%;">
+        <h3>Altroz</h3>
+        <p>HatchBack</p>
+        <h6>₹ 5.85 - 9,82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="ttharrier.png" style="width: 76%; height: 100%;">
+        <h3>Harrier</h3>
+        <p>MUV</p>
+        <h6>₹ 14.85 - 21.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="tttiago.png" style="width: 90%; height: 100%;">
+        <h3>Tiago</h3>
+        <p>HatchBack</p>
+        <h6> ₹ 4.93 - 7.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="ttnexonev.png" style="width: 83%; height: 100%;">
+        <h3>Nexon EV</h3>
+        <p>EV HatchBack</p>
+        <h6> ₹ 14.99 - 16.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1" style="background-color: green">Book Now</button>
+      </div>
+       </div>
+
+
+      <h2 style="text-align: center;">Mahindra</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="Mthar.png" style="height: 150px">
+        <h3>Thar</h3>
+        <p>SUV</p>
+        <h6>₹ 11.15 - 13.82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Mxuv300.png" style="height: 150px">
+        <h3>XUV 300</h3>
+        <p>SUV</p>
+        <h6>₹ 7.85 - 13.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Mbolero.png" style="height: 150px; width: 240px">
+        <h3>Bolero</h3>
+        <p>MUV</p>
+        <h6> ₹ 9.93 - 10 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Mxuv.png" style="height: 150px; width: 240px">
+        <h3>XUV 700</h3>
+        <p>SUV</p>
+        <h6> ₹ 11.99 - 23.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+
+    </div>
+
+
+  <h2 style="text-align: center;">Scoda</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="Srapid.png" style="width:250px; height: 150px;">
+        <h3>Rapid</h3>
+        <p>Sedan</p>
+        <h6>₹ 7.15 - 13.82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Skadiaq.png"  style="width:310px; height: 150px;">
+        <h3>Kodiaq</h3>
+        <p>SUV</p>
+        <h6>₹ 34.85 - 39.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Skushaq.png" style="width: 93%; height: 100%;">
+        <h3>Kushaq</h3>
+        <p>Muv</p>
+        <h6> ₹ 10.93 - 18.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Sslavia.png" style="width: 79%; height: 90%;">
+        <h3>Slavia</h3>
+        <p>Sedan</p>
+        <h6> ₹ 19.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+
+
+
+    </div>
+
+
+  <h2 style="text-align: center;">Hyundai</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="Hi20.png" style="width: 80%; height: 50%;">
+        <h3>i20</h3>
+        <p>HatchBack</p>
+        <h6>₹ 6.15 - 10.82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Hverna.png" style="width: 80%; height: 100%;">
+        <h3>Verna</h3>
+        <p>Sedan</p>
+        <h6>₹ 9.85 - 14.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Halcazar.png" style="width: 78%; height: 100%;">
+        <h3>Alcazar</h3>
+        <p>MUV</p>
+        <h6> ₹ 16.93 - 26.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Hkona.png" style="width: 75%; height: 100%;">
+        <h3>Kona</h3>
+        <p>Electric</p>
+        <h6> ₹ 22.99 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1" style="background-color: #00AE68">Book Now</button>
+      </div>
+
+
+</div>
+
+  <h2 style="text-align: center;">Honda</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="Hamaze.png" style="width: 75%; height: 60%;">
+        <h3>Amaze</h3>
+        <p>Sedan</p>
+        <h6>₹ 6.15 - 11.82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Hcity.png" style="width:150px; height: 100px;">
+        <h3>City</h3>
+        <p>Sedan</p>
+        <h6>₹ 11.85 - 15.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Hjazz.png" style="width: 68%; height: 100%;">
+        <h3>Jazz</h3>
+        <p>HATCHBACK</p>
+        <h6> ₹ 7.93 - 9.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Hbrio.png" style="width: 57%; height: 100%;">
+        <h3>Brio</h3>
+        <p>Hatchback</p>
+        <h6> ₹ 5.99 - 7.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+
+
+</div>
+
+  <h2 style="text-align: center;">Nissan</h2>
+    <div class="gallery">
+      <div class="content">
+        <img src="Nmagnite.png" style="width: 75%; height: 50%;">
+        <h3>Magnite</h3>
+        <p>HatchBack</p>
+        <h6>₹ 5.15 - 10.82 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Nsunny.png" style="width: 83%; height: 100%;">
+        <h3>Sunny</h3>
+        <p>Sedan</p>
+        <h6>₹ 8.85 - 10.67 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Nkicks.png" style="width: 80%; height: 100%;">
+        <h3>Kicks</h3>
+        <p>Hatchback</p>
+        <h6> ₹ 9.93 - 14.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+      <div class="content">
+        <img src="Nterra.png" style="width: 89%; height: 100%;">
+        <h3>Terra</h3>
+        <p>SUV</p>
+        <h6> ₹ 20.99 - 40.45 Lakh</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+        <button class="buy-1">Book Now</button>
+      </div>
+
+
+</div>
+
+
+
+  </body>
+</html>
